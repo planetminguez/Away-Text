@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>awaytext_icon.png</string>
+		<key>label</key>
+		<string>Away Text</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>Enable away message:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>com.legendcoders.awaytext</string>
+			<key>key</key>
+			<string>OnOff</string>
+			<key>label</key>
+			<string>On/Off: </string>
+		</dict>
+			<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>com.legendcoders.awaytext</string>
+			<key>key</key>
+			<string>replyMessage</string>
+			<key>label</key>
+			<string>Away Message:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Follow me on Twitter: http://twitter.com/InfectionFX for new tweaks! :)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Please support my Coffee addiction! You can PayPal donate to tylernettleton@gmail.com to support! :P</string>
+		</dict>
+		
+	</array>
+	<key>title</key>
+	<string>Away Text</string>
+</dict>
+</plist>

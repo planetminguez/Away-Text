@@ -1,0 +1,10 @@
+Package: com.legendcoders.awaytext
+Name: awaytext
+Depends: mobilesubstrate
+Version: 0.0.1-28
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: InfectionFX
+Author: InfectionFX
+Section: Tweaks
+Installed-Size: 52
